@@ -56,7 +56,7 @@
           <a href="{% url 'cart' %}">
               <img id="cart-icon" src="{% static 'store/image/cart.png' %}">
           </a>
-          <p id="cart=total">0</p>
+          <p id="cart-total">{{cartItems}}</p>
       </div>
   </div>
 </nav>
